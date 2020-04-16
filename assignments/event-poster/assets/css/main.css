@@ -1,0 +1,94 @@
+body{
+    background-color:black;
+    margin-top: 3%;
+    animation: blinking 1s infinite;
+}
+
+/* Apply border-box layout to all elements (makes it easier to apply padding and borders without changing the size of elements) */
+* { box-sizing: border-box }
+
+
+/* Set a max width of 100% to all images, while maintaing the image's ratio. This prevents images from overflowing from their container element. */
+
+.img{
+    position: absolute;
+    left: 31%;;
+}
+
+.title{
+/* animation: spinType;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite; */
+font-size: 8vmin;
+left:18%;
+top:2%;
+position: absolute;
+font-family: 'Kumar One Outline', cursive;
+color: #d21f17;
+
+}
+
+.info{
+    top: 30%;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 5vmin;
+    position: absolute;
+    z-index: 2;
+    left: 71%;
+    color:white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.venue{
+font-family: 'New Rocker', cursive;
+font-size: 6vmin;
+position: absolute;
+top:86%;
+left:37%;
+color:white;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+
+@keyframes blinking {
+      0%{
+        background-color: black;
+
+      }
+
+      100%{
+        background-color: white;
+
+      }
+
+    }
+
+
+      @media screen and (max-width: 600px) {
+          img{
+
+            /* right: */
+              max-width: 100%;
+          }
+
+          .title{
+
+          }
+
+          .venue{
+
+          }
+
+          .info{
+              top:50%;
+          }
+      }

@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../font/Helvetica.woff') format('woff');
+  font-style: normal;
+}
+
+
+body{
+background-color: #d3d3d3;
+  margin-top: 5%;
+
+}
+
+.box{
+  display: flex;
+    justify-content: space-around;
+    border: solid black .5vw;
+    margin: auto;
+    position: fixed;
+    width: 97vw;
+    z-index: 1;
+    font-size: 1.75vw;
+    margin-top: -3vw;
+    font-weight: bold;
+    background-color: white;
+}
+
+.title{
+    font-family: 'Helvetica';
+}
+
+.interviewer{
+    font-family: 'Helvetica';
+}
+
+.interviewee{
+    font-family: 'Helvetica';
+}
+
+.box2{
+  display: flex;
+    justify-content: space-around;
+    border: solid black .5vw;
+    margin: auto;
+    position: absolute;
+top: 20%;
+    width: 97vw;
+    z-index: 1;
+    font-size: 1.75vw;
+    margin-top: -3vw;
+    font-weight: bold;
+    background-color: white;
+}
+
+.text{
+  font-family: 'Helvetica';
+  font-size:
+}
+
+.box3{
+  display: flex;
+    justify-content: space-around;
+    border: solid black .5vw;
+    margin: auto;
+    position:absolute;
+    top: 40%;
+    width: 97vw;
+    z-index: 1;
+    font-size: 1.75vw;
+    margin-top: -3vw;
+    font-weight: bold;
+    background-color: white;
+}
+
+.imgs{
+position: relative;
+left: 8%;
+}

@@ -1,0 +1,190 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.vase {
+    position: absolute;
+    display: block;
+    width: 10vw;
+    height: 12vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 24%;
+    left: 18%;
+    z-index: 1;
+}
+
+.flower-stem {
+    position: absolute;
+    display: block;
+    background-color: green;
+    width: 1vw;
+    height: 4vw;
+    top: -33%;
+    left: 49%;
+}
+
+.flower-petal{
+    position: absolute;
+      width: 6vh;
+      height: 8vh;
+      background: pink;
+      border-radius: 100px / 50px;
+      top:-60%;
+      left: 43%;
+}
+
+.book1 {
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    left: 300px;
+    background: #23a491;
+    top: 460px;
+}
+
+.book2 {
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    left: 300px;
+    background: #2a230b;
+    top: 420px;
+}
+
+.camera-body {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: #323232;
+    top: 49%;
+    left: 12%;
+}
+
+.camera-lens{
+    position: absolute;
+    width: 2vw;
+    height: 3vw;
+    background: #323232;
+    top: 53%;
+    left: 10vw;
+}
+
+.book3 {
+    position: absolute;
+    width: 10vw;
+    height: 20vw;
+    background-color: #dbdbd7;
+    left: 70%;
+    top: 30%;
+}
+
+.body{
+    position: absolute;
+    display: block;
+    width: 7vw;
+    height: 8vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 50%;
+    top: 45%;
+    left: 50%;
+}
+
+.arm1{
+    position: absolute;
+    display: block;
+    width: 2vw;
+    height: 5vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 50% 50% 40% 50%;
+    top: 48%;
+    left: 57%;
+}
+
+.arm2{
+    position: absolute;
+    display: block;
+    width: 2vw;
+    height: 5vw;
+    background-color: #fbf6ca;
+    border-radius: 50% 50% 50% 50% / 50% 50% 40% 50%;
+    top: 48%;
+    left: 48%;
+}
+
+.head{
+    position: absolute;
+    display: block;
+    width: 7vw;
+    height: 6vw;
+    background-color: #fbf6ca;
+    border-radius: 70% 70% 50% 50% / 70% 70% 40% 50%;
+    top: 37%;
+    left: 50%;
+}
+
+.ear1{
+    position: absolute;
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    background-color: #fbf6ca;
+    border-radius: 40% 40% 50% 50% / 40% 40% 40% 50%;
+    top: 35%;
+    left: 56%;
+}
+
+.ear2{
+    position: absolute;
+    display: block;
+    width: 3vw;
+    height: 3vw;
+    background-color: #fbf6ca;
+    border-radius: 40% 40% 50% 50% / 40% 40% 40% 50%;
+    top: 35%;
+    left: 48%;
+}
+
+.cat-word1{
+    position: absolute;
+    font-family: helvetica;
+    top:45%;
+    left:53%;
+    font-size: 4vh;
+}
+
+.cat-word2{
+    position: absolute;
+    font-family: helvetica;
+    top:40%;
+    left:50%;
+    font-size: 4vh;
+}
+
+.table{
+    position: absolute;
+      border-bottom: 46vh solid #d2b090;
+      border-left: 5vh solid transparent;
+      border-right: 5vh solid transparent;
+      height: 0;
+      width: 178.5vh;
+      top:59%;
+}

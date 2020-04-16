@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'MaisonNeue-Mono';
+  src: url('../font/MaisonNeue-Mono.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NittiGrotesk-Regular';
+  src: url('../font/NittiGrotesk-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NittiGrotesk-Light';
+  src: url('../font/NittiGrotesk-Light.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Druk-WideSuper';
+  src: url('../font/Druk-WideSuper.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'misterpixelreg';
+  src: url('../font/misterpixelreg.woff') format('woff');
+  font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: black;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.top-page{
+    position: sticky;
+}
+
+.vote{
+    position: absolute;
+    font-family: 'misterpixelreg', sans-serif;
+    color: white;
+    font-size: 9vw;
+    left: 15%;
+    z-index: 1;
+}
+
+.auction{
+    position: absolute;
+    font-family: 'misterpixelreg', sans-serif;
+    color: white;
+    font-size: 9vw;
+    top: 40%;
+    right: 5%;
+    z-index: 1;
+}
+
+.seal{
+    position: relative;
+    top: 30%;
+    left: 39%;
+}
+
+/* .box{
+    margin-top: 3%;
+    width: 200vw;
+     height: 3vh;
+     background: white;
+} */
+
+.grid {
+    margin-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 15px;
+}
+
+
+.title {
+    position: relative;
+  font-size: 45px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'misterpixelreg', sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.body-text {
+  font-size: 20px;
+  line-height: 1.4;
+  color: white;
+  font-family: 'NittiGrotesk-Regular', sans-serif;
+}
+
+p{
+    display: block;
+    margin: auto;
+    columns: 2;
+    column-gap: 4vh;
+}
+
+a{
+    color: black;
+}
+
+.text-big{
+    position: relative;
+  font-size: 45px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'misterpixelreg', sans-serif;
+  color: white;
+  margin-top: 3%;
+  border: 5px solid white;
+
+}
+
+.grid2 {
+  margin-top: 3%;
+   margin-bottom: 2%;
+   display: grid;
+   grid-template-columns: 1fr 2fr 1fr;
+   grid-gap: 15px;
+}
+
+.homepage{
+    margin-right: 2%;
+}
+
+.body-text2{
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+    font-family: 'NittiGrotesk-Regular', sans-serif;
+}
+
+.check{
+    margin-left: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .body-text2{
+      font-size: 5vw;
+  }
+}

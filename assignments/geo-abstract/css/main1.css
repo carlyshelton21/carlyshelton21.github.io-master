@@ -1,0 +1,25 @@
+body {
+    margin: auto;
+    height: 100%;
+    background-color: #e6efec;
+}
+
+.parent {
+    height: 50%;
+    width: 80%;
+    margin-top: calc((100vh - 700px)/2);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #088599;
+}
+
+.box {
+    position: relative;
+    width: 15%;
+    padding: 5%;
+    height: 20vh;
+    margin-bottom: 6%;
+    background-color: #53ab47;
+    margin-left: calc(50% - 100px);
+    box-sizing: border-box;
+}
