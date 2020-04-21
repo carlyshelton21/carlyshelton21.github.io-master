@@ -1,4 +1,10 @@
 @font-face {
+  font-family: 'Marlboro';
+  src: url('../type/Marlboro.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'rockwell';
   src: url('../type/rockwell.woff') format('woff');
   font-style: normal;
