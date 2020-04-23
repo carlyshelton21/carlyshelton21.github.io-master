@@ -1,3 +1,5 @@
+/* POSTER2 */
+
 
 body{
   margin-top: 10%;
@@ -7,7 +9,7 @@ body{
     linear-gradient(to bottom, grey 1px, transparent 1px);
 }
 
-.one{
+.two{
   font-family: ocr-a-std, monospace;
   font-weight: 400;
   font-style: normal;
@@ -21,10 +23,10 @@ body{
 font-family: hydrophilia-iced, sans-serif;
 font-style: normal;
 font-weight: 400;
-color:#0000EE;
+color:	#FF00FF;
 font-size: 10vw;
 position: absolute;
-top: 8%;
+top: 6%;
 z-index: -1;
 animation: myanimation1 5s;
 animation-iteration-count: infinite;
@@ -35,7 +37,7 @@ animation-timing-function: ease-in;
   font-family: hydrophilia-iced, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color:#0000EE;
+  color:	#FF00FF;
   font-size: 4vw;
   position: absolute;
   z-index: 1;
@@ -53,13 +55,13 @@ animation-timing-function: ease-in;
   font-family: hydrophilia-iced, sans-serif;
   font-style: normal;
   font-weight: 400;
-  color:#0000EE;
+  color:	#FF00FF;
   font-size: 8vw;
   animation: myanimation2 5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   position: absolute;
-  top: 72%;
+  top: 71%;
 }
 
 
@@ -79,7 +81,7 @@ a{
   font-family: ocr-a-std, monospace;
   font-weight: 400;
   font-style: normal;
-  color:#0000EE;
+  color:	#FF00FF;
 }
 
 .zoom:hover{
@@ -90,7 +92,7 @@ a:visited {
   font-family: ocr-a-std, monospace;
   font-weight: 400;
   font-style: normal;
-  color:#0000EE;
+  color:	#FF00FF;
 }
 
 a.title:hover {
